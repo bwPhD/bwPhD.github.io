@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## 个人简介
+## **个人简介**
 
 ---
 
@@ -42,8 +42,27 @@ wangbinwork@seu.edu.cn
 {% include awards.md %}
 
 
+{% capture awards_content %}
+{% include awards.md %}
+{% endcapture %}
+{{ awards_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /awards/index.html' | remove: 'title: Awards' }}
+
+
 ---
 
 <br>
 
+{% capture teach_content %}
+{% include teach.md %}
+{% endcapture %}
+{{ teach_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /blogs/index.html' | remove: 'title: 教学' }}
+
+
+---
+
+<br>
+
+{% capture blogs_content %}
 {% include blogs.md %}
+{% endcapture %}
+{{ blogs_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /blogs/index.html' | remove: 'title: 招生兴趣' }}
