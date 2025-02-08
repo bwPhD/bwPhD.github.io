@@ -6,7 +6,8 @@ audio:not([controls]) { display: none; height: 0; }
 html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; }
 body { background-color: transparent; }
-body, p, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+/* 全局文本颜色覆盖为白色 */
+body, html, p, h1, h2, h3, h4, h5, h6, span, a, li, blockquote, dt, dd, label, legend, th, td, input, select, textarea {
   color: #FFFFFF !important;
 }
 
@@ -100,9 +101,13 @@ abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var,
 pre code { word-wrap: normal; white-space: -moz-pre-wrap; white-space: pre-wrap; }
 pre { white-space: pre; }
 code { white-space: pre; font-family: monospace; }
-abbr { font-variant: small-caps; font-weight: 400; text-transform: lowercase; color: #333332; }
+body {
+  word-wrap: normal;
+  color: #FFFFFF; /* 原先为 #333332 */
+}
+abbr { font-variant: small-caps; font-weight: 400; text-transform: lowercase; color: #ffffff; }
 abbr:hover { cursor: help; }
-h1, h2, h3, h4, h5, h6 { color: #333332; }
+h1, h2, h3, h4, h5, h6 { color: #ffffff; }
 .lining dt, .lining dd { display: inline; margin: 0; }
 .lining dt + dt:before, .lining dd + dt:before { content: "\A"; white-space: pre; }
 .lining dd + dd:before { content: ", "; }
@@ -843,4 +848,15 @@ html { font-size: 112.5%; }
 }
 .dark-mode .toc ul {
   background: #0E182E;
+}
+
+/* 让正文部分变为白色 */
+body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, strong, em, blockquote {
+  color: #FFFFFF !important;
+}
+
+/* 保持导航栏颜色不变 */
+.navbar, .navigation-wrapper, .top-navigation, .menu, .menu a, .menu li, .menu li a {
+  color: inherit !important;
+  background-color: inherit !important;
 }
