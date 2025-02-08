@@ -620,7 +620,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
 .footer-wrap {
   margin: 0 auto;
   width: 100%;
-  *zoom: 1;
+  zoom: 1;
   clear: both;
   margin-top: 1em;
   padding-top: 2em;
@@ -879,30 +879,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 b, strong {
   color: #F4B56F !important;  /* 确保 Markdown 加粗文字为橙黄色 */
 }
-
-
-
-
-/* 默认导航栏样式 */
-.navbar a, 
-.navigation-wrapper a, 
-.top-navigation a, 
-.menu a {
-  color: #FFFFFF !important;  /* 默认字体颜色：白色 */
-  background-color: transparent; /* 保持背景色不变 */
-  text-decoration: none;
-  padding: 10px 15px;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 过渡效果 */
-}
-
-/* 鼠标悬停时字体变为黄色 */
-.navbar a:hover, 
-.navigation-wrapper a:hover, 
-.top-navigation a:hover, 
-.menu a:hover {
-  color: #F4B56F !important; /* 变为金黄色 */
-  background-color: transparent; /* 保持背景色不变 */
-}
+HEAD
 
 /* 当前激活（选中）页面的导航字体颜色仍为黄色 */
 .navbar .active a, 
