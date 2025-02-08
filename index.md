@@ -38,8 +38,6 @@ www.binwangphd.com
 
 ---
 
-
-
 <br>
 
 {% capture awards_content %}
@@ -48,12 +46,9 @@ www.binwangphd.com
 
 ---
 
-
-
 <br>
 
 {% capture blogs_content %}
 {% include blogs.md %}
 {% endcapture %} {{ blogs_content | split: '---' | last }}
 
----
