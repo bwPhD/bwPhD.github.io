@@ -37,7 +37,7 @@ wangbinwork@seu.edu.cn
 
 <!-- 加载页面  提取内容 -->
 <div id="dynamic-content">
-  <p> </p>
+  <p>正在加载内容...</p>
 </div>
 
 <script>
@@ -51,29 +51,36 @@ wangbinwork@seu.edu.cn
 
   async function loadContent() {
     const contentDiv = document.getElementById("dynamic-content");
-    contentDiv.innerHTML = ""; // 清空加载提示
+    let aggregateHTML = ""; // 用于聚合所有页面内容
 
+    // 依次加载各页面（顺序加载，确保内容排列有序）
     for (const page of pages) {
       try {
         const response = await fetch(page);
+        // 检查 HTTP 响应状态
+        if (!response.ok) {
+          throw new Error(`HTTP 错误：${response.status}`);
+        }
         const text = await response.text();
 
-        // 提取 <body> 标签内部的 HTML 内容
+        // 创建临时容器提取 <body> 内部的 HTML 内容
         const tempDiv = document.createElement("div");
         tempDiv.innerHTML = text;
         const bodyContent = tempDiv.querySelector("body");
 
         if (bodyContent) {
-          contentDiv.innerHTML += bodyContent.innerHTML;
+          aggregateHTML += bodyContent.innerHTML;
         } else {
-          contentDiv.innerHTML += `<p>无法加载 ${page}</p>`;
+          aggregateHTML += `<p>无法加载 ${page}</p>`;
         }
       } catch (error) {
-        contentDiv.innerHTML += `<p>加载 ${page} 失败</p>`;
+        aggregateHTML += `<p>加载 ${page} 失败</p>`;
       }
     }
+    // 一次性更新 DOM，避免多次重绘
+    contentDiv.innerHTML = aggregateHTML;
   }
 
   // 页面加载完成后自动调用加载函数
-  loadContent();
+  window.addEventListener("load", loadContent);
 </script>
