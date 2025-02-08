@@ -408,19 +408,18 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 /* 设置导航栏文本颜色和背景颜色 */
 .navbar, .navigation-wrapper, .top-navigation, .menu, .menu a, .menu li, .menu li a {
   color: #FFFFFF !important;  /* 让导航栏内的文字变白，提高对比度 */
-  background-color: #BF874B !important;  /* 设置导航栏背景色为棕黄色 */
+  background-color: #0E182E !important;  /* 设置导航栏背景色为棕黄色 */
 }
 
 /* 如果导航栏的背景色仍然没有生效，可以尝试 */
 .navbar {
-  background-color: #BF874B !important;
+  background-color: #0E182E !important;
 }
 
 /* 如果菜单项（子元素）仍然有别的颜色，可以强制修改 */
 .navbar a, .top-navigation a, .menu a {
   color: #FFFFFF !important;  /* 让导航栏上的链接文字也变白 */
 }
-
 
 hr, .pagination, .page-break {
   display: none !important;
