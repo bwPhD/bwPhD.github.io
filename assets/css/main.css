@@ -431,27 +431,27 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 .navigation-wrapper a, 
 .top-navigation a, 
 .menu a {
-  color: #FFFFFF !important; /* 默认白色字体 */
+  color: #FFFFFF !important;  /* 默认字体颜色：白色 */
   text-decoration: none;
-  padding: 10px 15px; /* 适当调整间距 */
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑过渡效果 */
+  padding: 10px 15px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 过渡效果 */
 }
 
-/* 鼠标悬停时的字体颜色变为黄色 */
+/* 鼠标悬停时字体变为黄色 */
 .navbar a:hover, 
 .navigation-wrapper a:hover, 
 .top-navigation a:hover, 
 .menu a:hover {
-  color:#F4B56F  !important; /* 变为金黄色 */
+  color: #F4B56F !important; /* 变为金黄色 */
   background-color: transparent; /* 保持背景色不变 */
 }
 
-/* 确保激活（当前页面）链接的颜色 */
+/* 当前激活（选中）页面的导航字体颜色仍为黄色 */
 .navbar .active a, 
 .navigation-wrapper .active a, 
 .top-navigation .active a, 
 .menu .active a {
-  color: #F4B56F  !important; /* 保持金黄色 */
+  color: #F4B56F !important; /* 保持金黄色 */
   font-weight: bold;
 }
 
