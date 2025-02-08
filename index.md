@@ -12,7 +12,8 @@ layout: page
 
 ---
 
-### 电子邮箱： wangbinwork@seu.edu.cn
+### 电子邮箱： 
+wangbinwork@seu.edu.cn
 
 ---
 
@@ -24,7 +25,8 @@ layout: page
 
 ---
 
-### 个人主页：www.binwangphd.com
+### 学术主页：
+www.binwangphd.com
 
 ---
 
