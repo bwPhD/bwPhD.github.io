@@ -4,6 +4,8 @@ layout: page
 
 ## 个人简介
 
+---
+
 **汪斌**，东南大学社会学系讲师，硕士生导师。北京大学博士(**PhD**，2023年)。 
 
 ---
@@ -24,23 +26,22 @@ wangbinwork@seu.edu.cn
 - 人口学
 - 数字社会学
 
-<br>
-
 ---
+
+<br>
 
 {% include publications.md %}
 
 
-<br>
-
 ---
+
+<br>
 
 {% include award.md %}
 
 
-<br>
-
-
 ---
 
-{% include blog.md %}
+<br>
+
+{% include blogs.md %}
