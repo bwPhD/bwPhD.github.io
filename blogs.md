@@ -15,9 +15,7 @@ title: 招生兴趣
 
 <br>
 
-## Web Star History 点赞记录
-
-- [平安喜乐🥰]
+##  [平安喜乐🥰]
 
 
 <br>
