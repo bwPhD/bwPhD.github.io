@@ -269,7 +269,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
 .top-navigation{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
 .top-navigation ul{list-style:none;margin:0;padding:0;}
 .top-navigation li{list-style-type:none;display:inline;margin-right:25px;}.top-navigation li a{decoration:none;border-bottom:0 solid transparent;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}
-.top-navigation-current{text-decoration: overline;color:#F4B56F;}
+.top-navigation-current{text-decoration: overline;}
 #main{counter-reset:captions;margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}#main:before,#main:after{display:table;content:"";}
 #main:after{clear:both;}
 #main:before,#main:after{content:"";display:table;}
@@ -416,7 +416,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 }
 /* 设置导航栏文本颜色和背景颜色 */
 .navbar, .navigation-wrapper, .top-navigation, .menu, .menu a, .menu li, .menu li a {
-  color: #F4B56F  !important;  /* 让导航栏内的文字变白，提高对比度 */
+  color: #FFFFFF !important;  /* 让导航栏内的文字变白，提高对比度 */
   background-color: #0E182E !important;  /* 设置导航栏背景色为棕黄色 */
 }
 
@@ -425,14 +425,57 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
   background-color: #0E182E !important;
 }
 
-/* 当前激活（选中）页面的导航字体颜色仍为黄色 */
-.navbar .active a, 
-.navigation-wrapper .active a, 
-.top-navigation .active a, 
-.menu .active a {
-  color: #F4B56F  !important; /* 保持金黄色 */
-  font-weight: bold;
+/* 如果菜单项（子元素）仍然有别的颜色，可以强制修改 */
+.navbar a, .top-navigation a, .menu a {
+  color: #FFFFFF !important;  /* 让导航栏上的链接文字也变白 */
+}
+
+hr, .pagination, .page-break {
+  display: none !important;
 }
 
 
-@media print{*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;position:static !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #333;page-break-inside:avoid;padding:1em;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;}}@media only screen and (min-width:30em){.image-grid li{width:33.333333%;}}@media only screen and (min-width:37.5em){html{font-size:95%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%; } .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:25%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}@media only screen and (min-width:48em){html{font-size:100%;} .image-grid li{width:20%;}}@media only screen and (min-width:62em){html{font-size:112.5%;} .image-grid li{width:16.666666666%;}}@media only screen and (min-width:86.375em){.site-name{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} .top-navigation{display:inline;float:left;width:66.66666666666667%;} .image-wrap:after{left:33.333333333%;} .image-wrap .headline-wrap{margin-left:8.333333333333334%;} #main article{display:inline;float:left;width:37.5%;} #index{display:inline;float:left;width:37.5%;} .related-articles{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .footer-wrap footer{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .article-author-top{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;}}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){}
+/* 导航栏默认样式 */
+.navbar, .navigation-wrapper, .top-navigation, .menu {
+  color: #ffffff !important; /* 设置导航栏背景色为金黄色 */
+}
+
+/* 导航栏链接颜色 */
+.navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
+  color: #000000 !important; /* 设置导航栏链接为黑色，以便与黄色背景对比 */
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+/* 导航栏悬停颜色 */
+.navbar a:hover, .navigation-wrapper a:hover, .top-navigation a:hover, .menu a:hover {
+  color:  #F4B56F !important; /* 悬停时的浅黄色 */
+  background-color: rgba(0, 0, 0, 0.2); /* 添加轻微黑色透明背景 */
+  text-decoration: none;
+}
+
+/* 当前激活的导航项 */
+.navbar .active a, .navigation-wrapper .active a, .top-navigation .active a, .menu .active a {
+  color: #FFF;
+  background-color:  #F4B56F  !important; /* 激活状态时的橙色背景 */
+}
+
+/* 导航栏边框（如果需要更突出） */
+.navbar, .navigation-wrapper, .top-navigation, .menu {
+  border-bottom: 3px solid  #F4B56F ; /* 添加金黄色边框 */
+}
+
+/* 响应式导航栏优化 */
+@media (max-width: 767px) {
+  .navbar, .navigation-wrapper, .top-navigation {
+    background-color: #F4B56F  !important; /* 在小屏幕上稍微调暗黄色 */
+  }
+}
+
+b, strong {
+  color: #F4B56F !important;  /* 确保 Markdown 加粗文字为橙黄色 */
+}
+
+
+@media print{*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;position:static !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #333;page-break-inside:avoid;padding:1em;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;}}@media only screen and (min-width:30em){.image-grid li{width:33.333333%;}}@media only screen and (min-width:37.5em){html{font-size:95%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:25%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}@media only screen and (min-width:48em){html{font-size:100%;} .image-grid li{width:20%;}}@media only screen and (min-width:62em){html{font-size:112.5%;} .image-grid li{width:16.666666666%;}}@media only screen and (min-width:86.375em){.site-name{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} .top-navigation{display:inline;float:left;width:66.66666666666667%;} .image-wrap:after{left:33.333333333%;} .image-wrap .headline-wrap{margin-left:8.333333333333334%;} #main article{display:inline;float:left;width:37.5%;} #index{display:inline;float:left;width:37.5%;} .related-articles{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .footer-wrap footer{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .article-author-top{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;}}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){}
