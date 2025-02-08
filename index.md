@@ -30,8 +30,10 @@ wangbinwork@seu.edu.cn
 
 <br>
 
+{% capture publications_content %}
 {% include publications.md %}
-
+{% endcapture %}
+{{ publications_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /publications/index.html' | remove: 'title: 成果' }}
 
 ---
 
