@@ -875,44 +875,50 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 }
 
 
-/* 导航栏默认样式
-.navbar, .navigation-wrapper, .top-navigation, .menu {
-  color: #ffffff !important; /* 设置导航栏背景色为金黄色 */
 
-/* 导航栏链接颜色 */
+/* 设置默认导航栏样式 */
+.navbar, .navigation-wrapper, .top-navigation, .menu {
+  background-color: #0E182E !important; /* 保持导航栏背景色 */
+}
+
+/* 默认导航项颜色（未选中状态） */
 .navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
-  color: #ffffff !important; /* 设置导航栏链接为黑色，以便与黄色背景对比 */
+  color: #FFFFFF !important;
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.3s ease-in-out;
 }
 
-/* 导航栏悬停颜色 */
-.navbar a:hover, .navigation-wrapper a:hover, .top-navigation a:hover, .menu a:hover {
-  color:  #F4B56F !important; /* 悬停时的浅黄色 */
-  background-color:  #F4B56F (0, 0, 0, 0.2); /* 添加轻微黑色透明背景 */
-  text-decoration: none;
+/* 鼠标悬停时，字体变黄，但背景不变 */
+.navbar a:hover, 
+.navigation-wrapper a:hover, 
+.top-navigation a:hover, 
+.menu a:hover {
+  color: #F4B56F !important; /* 悬停变黄 */
+  background-color: transparent !important; /* 确保背景颜色不变 */
 }
 
-/* 当前激活的导航项 */
-.navbar .active a, .navigation-wrapper .active a, .top-navigation .active a, .menu .active a {
-  color: #FFF;
-  background-color:  #F4B56F  !important; /* 激活状态时的橙色背景 */
+/* 选中的导航项（有上划线时，字体变黄） */
+.top-navigation-current {
+  text-decoration: overline; /* 添加顶部横线 */
+  color: #F4B56F !important; /* 让该项字体变黄 */
+  background-color: transparent !important; /* 确保背景不变 */
 }
 
-/* 导航栏边框（如果需要更突出） 
-.navbar, .navigation-wrapper, .top-navigation, .menu {
-  border-bottom: 3px solid  #F4B56F ; /* 添加金黄色边框 */
+/* 选中项的键盘交互（确保颜色变化） */
+.navbar a:focus, 
+.navigation-wrapper a:focus, 
+.top-navigation a:focus, 
+.menu a:focus {
+  color: #F4B56F !important;
+  background-color: transparent !important;
+}
 
-/* 响应式导航栏优化 */
+/* 适配移动端导航栏 */
 @media (max-width: 767px) {
   .navbar, .navigation-wrapper, .top-navigation {
-    background-color: #F4B56F  !important; /* 在小屏幕上稍微调暗黄色 */
+      background-color: #0E182E !important;
   }
-}
-
-b, strong {
-  color: #F4B56F !important;  /* 确保 Markdown 加粗文字为橙黄色 */
 }
 
 
