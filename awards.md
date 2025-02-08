@@ -4,7 +4,7 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-## 学术荣誉及社会服务
+## 学术荣誉
 ### 学术获奖
 
 - 2024年 入选中国知网高被引学者Top1%
