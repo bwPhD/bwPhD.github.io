@@ -37,7 +37,7 @@ wangbinwork@seu.edu.cn
 
 <br>
 
-{% include award.md %}
+{% include awards.md %}
 
 
 ---
