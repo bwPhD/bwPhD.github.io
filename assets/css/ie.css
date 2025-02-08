@@ -541,10 +541,19 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   margin-bottom: 1.2375rem;
 }
 .byline { clear: both; font-size: 80%; }
-.article-author-top h4, .article-author-bottom h4 { margin-bottom: 0.5em; }
-.article-author-top p, .article-author-bottom p { font-size: 80%; font-style: italic; }
-.article-author-top a, .article-author-bottom a, .article-author-top a:hover, .article-author-bottom a:hover { border-bottom: 0 solid transparent; }
-.article-author-top img.bio-photo, .article-author-bottom img.bio-photo { -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; }
+
+.article-author-top h2,.article-author-bottom h2{margin-bottom:0.5em;}
+.article-author-top p,.article-author-bottom p{font-size:80%;font-style:italic;}
+.article-author-top a,.article-author-bottom a,.article-author-top a:hover,.article-author-bottom a:hover{border-bottom:0 solid transparent;}
+
+.article-author-top img.bio-photo, .article-author-bottom img.bio-photo {
+    border-radius: 0 !important;  /* 移除圆角 */
+    width: auto;  /* 让图片尺寸自适应 */
+    height: auto; 
+    max-width: 100%; /* 防止溢出 */
+}
+
+
 .article-author-top { display: none; }
 .article-author-bottom .bio-photo { float: left; margin-right: 25px; }
 
