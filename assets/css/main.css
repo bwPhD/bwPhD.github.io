@@ -435,14 +435,13 @@ hr, .pagination, .page-break {
 }
 
 
-/* 导航栏默认样式 */
+/* 导航栏默认样式
 .navbar, .navigation-wrapper, .top-navigation, .menu {
   color: #ffffff !important; /* 设置导航栏背景色为金黄色 */
-}
 
 /* 导航栏链接颜色 */
 .navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
-  color: #000000 !important; /* 设置导航栏链接为黑色，以便与黄色背景对比 */
+  color: #ffffff !important; /* 设置导航栏链接为黑色，以便与黄色背景对比 */
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.3s ease-in-out;
@@ -451,7 +450,7 @@ hr, .pagination, .page-break {
 /* 导航栏悬停颜色 */
 .navbar a:hover, .navigation-wrapper a:hover, .top-navigation a:hover, .menu a:hover {
   color:  #F4B56F !important; /* 悬停时的浅黄色 */
-  background-color: rgba(0, 0, 0, 0.2); /* 添加轻微黑色透明背景 */
+  background-color:  #F4B56F (0, 0, 0, 0.2); /* 添加轻微黑色透明背景 */
   text-decoration: none;
 }
 
@@ -461,10 +460,9 @@ hr, .pagination, .page-break {
   background-color:  #F4B56F  !important; /* 激活状态时的橙色背景 */
 }
 
-/* 导航栏边框（如果需要更突出） */
+/* 导航栏边框（如果需要更突出） 
 .navbar, .navigation-wrapper, .top-navigation, .menu {
   border-bottom: 3px solid  #F4B56F ; /* 添加金黄色边框 */
-}
 
 /* 响应式导航栏优化 */
 @media (max-width: 767px) {
