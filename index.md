@@ -34,7 +34,46 @@ wangbinwork@seu.edu.cn
 人口与发展(C刊) 、社会建设(C扩) 、Plos One（SCI）审稿专家
 
 ---
-{% publications.md %}
-{% awards.md %}
-{% teach.md %}
-{% blogs.md %}
+
+<div id="dynamic-content">
+  <p>正在加载内容...</p>
+</div>
+
+<script>
+  // 按指定顺序加载的页面列表
+  const pages = [
+    "/publications/",
+    "/awards/",
+    "/teach/",
+    "/blogs/"
+  ];
+
+  async function loadContent() {
+    let contentDiv = document.getElementById("dynamic-content");
+    contentDiv.innerHTML = ""; // 清空加载提示
+
+    for (const page of pages) {
+      try {
+        let response = await fetch(page);
+        let text = await response.text();
+        
+        // 提取<body>标签内部的HTML
+        let tempDiv = document.createElement("div");
+        tempDiv.innerHTML = text;
+        let bodyContent = tempDiv.querySelector("body");
+
+        // 添加到页面
+        if (bodyContent) {
+          contentDiv.innerHTML += `<section>${bodyContent.innerHTML}</section>`;
+        } else {
+          contentDiv.innerHTML += `<p>无法加载 ${page}</p>`;
+        }
+      } catch (error) {
+        contentDiv.innerHTML += `<p>加载 ${page} 失败</p>`;
+      }
+    }
+  }
+
+  // 页面加载时自动调用
+  loadContent();
+</script>
