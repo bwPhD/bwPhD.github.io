@@ -701,6 +701,7 @@ html { font-size: 95%; }
   width: 16.666667%;
   margin-left: 4.166667%;
   margin-right: 4.166667%;
+  color:#F4B56F;
 }
 .top-navigation {
   display: inline;
@@ -708,6 +709,7 @@ html { font-size: 95%; }
   width: 75%;
   margin-left: 0;
   margin-right: 0;
+  color:#F4B56F;
 }
 .image-wrap .headline-wrap, .image-wrap:after { left: 25%; }
 .image-wrap .headline-wrap { margin-left: 0; }
