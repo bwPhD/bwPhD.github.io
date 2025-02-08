@@ -5,8 +5,12 @@ audio:not([controls]){display:none;height:0;}
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 body{margin:0;}
 body { background-color: transparent; }
-body, p, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-  color: #FFFFFF !important;}
+
+/* 全局文本颜色覆盖为白色 */
+body, html, p, h1, h2, h3, h4, h5, h6, span, a, li, blockquote, dt, dd, label, legend, th, td, input, select, textarea {
+  color: #FFFFFF !important;
+}
+
 a:focus{outline:thin dotted;}
 a:active,a:hover{outline:0;}
 h1{font-size:2em;margin:0.67em 0;}
@@ -73,8 +77,15 @@ abbr,acronym,blockquote,code,dir,kbd,listing,plaintext,q,samp,tt,var,xmp{-webkit
 pre code{word-wrap:normal;white-space:-moz-pre-wrap;white-space:pre-wrap;}
 pre{white-space:pre;}
 code{white-space:pre;font-family:monospace;}
-abbr{font-variant:small-caps;font-weight:400;text-transform:lowercase;color:#333332;}abbr:hover{cursor:help;}
-h1,h2,h3,h4,h5,h6{color:#333332;}
+
+body {
+  word-wrap: normal;
+  color: #FFFFFF; /* 原先为 #333332 */
+}
+
+abbr{font-variant:small-caps;font-weight:400;text-transform:lowercase;color:#FFFFFF;}abbr:hover{cursor:help;}
+
+h1,h2,h3,h4,h5,h6{color: #FFFFFF;}
 .lining dt,.lining dd{display:inline;margin:0;}
 .lining dt+dt:before,.lining dd+dt:before{content:"\A";white-space:pre;}
 .lining dd+dd:before{content:", ";}
@@ -87,7 +98,9 @@ h1,h2,h3,h4,h5,h6{color:#333332;}
 .pull-quote{position:relative;padding:1em;}.pull-quote:before,.pull-quote:after{height:1em;opacity:0.15;position:absolute;font-size:4em;}
 .pull-quote:before{content:'“';top:0em;left:0em;}
 .pull-quote:after{content:'”';bottom:0em;right:0em;}
+
 h1,h2,h3,h4,h5,h6{font-family:'PT Sans Narrow',sans-serif;font-weight:700;}
+
 h6{font-weight:400;}
 a{text-decoration:none;color:#ad5d07;}a:visited{color:#ad5d07;}
 a:hover{color:#264A33;}
