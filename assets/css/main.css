@@ -426,22 +426,19 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 }
 
 /* 如果菜单项（子元素）仍然有别的颜色，可以强制修改 */
-.navbar a, .top-navigation a, .menu a {
-  color: #FFFFFF !important;  /* 让导航栏上的链接文字也变白 */
-}
+/* .navbar a, .top-navigation a, .menu a {/* 
+ /*  color: #FFFFFF !important;  /* 让导航栏上的链接文字也变白 /* 
 
-hr, .pagination, .page-break {
-  display: none !important;
-}
 
-/* 设置默认导航栏样式 */
+
+/* 让导航栏的默认背景颜色保持不变 */
 .navbar, .navigation-wrapper, .top-navigation, .menu {
-  background-color: #0E182E !important; /* 保持导航栏背景色 */
+  background-color: #0E182E !important;
 }
 
 /* 默认导航项颜色（未选中状态） */
 .navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
-  color: #F4B56F !important;
+  color: #FFFFFF !important;  /* 默认白色 */
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.1s ease-in-out;
@@ -453,22 +450,15 @@ hr, .pagination, .page-break {
 .top-navigation a:hover, 
 .menu a:hover {
   color: #F4B56F !important; /* 悬停变黄 */
-  background-color: transparent !important; /* 确保背景颜色不变 */
+  background-color: transparent !important; /* 背景保持不变 */
 }
 
-/* 选中的导航项（有上划线时，字体变黄） */
-.top-navigation-current {
+/* 当前页面选中的导航项（基于 URL 变化） */
+.top-navigation a[href="/"]:not(:hover):not(:active),
+.top-navigation a[href="/publications/"]:not(:hover):not(:active),
+.top-navigation a[href="/awards/"]:not(:hover):not(:active) {
+  color: #F4B56F !important; /* 当前页面链接变黄 */
   text-decoration: overline; /* 添加顶部横线 */
-  color: #F4B56F !important; /* 让该项字体变黄 */
-  background-color: transparent !important; /* 确保背景不变 */
-}
-
-/* 选中项的键盘交互（确保颜色变化） */
-.navbar a:focus, 
-.navigation-wrapper a:focus, 
-.top-navigation a:focus, 
-.menu a:focus {
-  color: #F4B56F !important;
   background-color: transparent !important;
 }
 

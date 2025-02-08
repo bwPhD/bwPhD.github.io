@@ -875,18 +875,17 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 }
 
 
-
-/* 设置默认导航栏样式 */
+/* 让导航栏的默认背景颜色保持不变 */
 .navbar, .navigation-wrapper, .top-navigation, .menu {
-  background-color: #0E182E !important; /* 保持导航栏背景色 */
+  background-color: #0E182E !important;
 }
 
 /* 默认导航项颜色（未选中状态） */
 .navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
-  color: #F4B56F !important;
+  color: #FFFFFF !important;  /* 默认白色 */
   font-weight: bold;
   text-transform: uppercase;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 
 /* 鼠标悬停时，字体变黄，但背景不变 */
@@ -895,22 +894,15 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 .top-navigation a:hover, 
 .menu a:hover {
   color: #F4B56F !important; /* 悬停变黄 */
-  background-color: transparent !important; /* 确保背景颜色不变 */
+  background-color: transparent !important; /* 背景保持不变 */
 }
 
-/* 选中的导航项（有上划线时，字体变黄） */
-.top-navigation-current {
+/* 当前页面选中的导航项（基于 URL 变化） */
+.top-navigation a[href="/"]:not(:hover):not(:active),
+.top-navigation a[href="/publications/"]:not(:hover):not(:active),
+.top-navigation a[href="/awards/"]:not(:hover):not(:active) {
+  color: #F4B56F !important; /* 当前页面链接变黄 */
   text-decoration: overline; /* 添加顶部横线 */
-  color: #F4B56F !important; /* 让该项字体变黄 */
-  background-color: transparent !important; /* 确保背景不变 */
-}
-
-/* 选中项的键盘交互（确保颜色变化） */
-.navbar a:focus, 
-.navigation-wrapper a:focus, 
-.top-navigation a:focus, 
-.menu a:focus {
-  color: #F4B56F !important;
   background-color: transparent !important;
 }
 
@@ -921,10 +913,10 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
   }
 }
 
-
-
+/* 确保 Markdown 加粗的文字也变黄 */
 b, strong {
-  color: #F4B56F !important;  /* 确保 Markdown 加粗文字为橙黄色 */
+  color: #F4B56F !important;
 }
+
 
 
