@@ -41,13 +41,10 @@ wangbinwork@seu.edu.cn
 
 <br>
 
-{% include awards.md %}
-
-
 {% capture awards_content %}
 {% include awards.md %}
 {% endcapture %}
-{{ awards_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /awards/index.html' | remove: 'layout: page permalink: /awards/index.html title: Awards —' }}
+{{ awards_content | split: '---' | last }}
 
 
 ---
@@ -57,7 +54,7 @@ wangbinwork@seu.edu.cn
 {% capture teach_content %}
 {% include teach.md %}
 {% endcapture %}
-{{ teach_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /blogs/index.html' | remove: 'title: permalink: /teach/index.html' }}
+{{ teach_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /blogs/index.html' | remove: 'permalink: /teach/index.html title: 教学' }}
 
 
 ---
@@ -67,4 +64,4 @@ wangbinwork@seu.edu.cn
 {% capture blogs_content %}
 {% include blogs.md %}
 {% endcapture %}
-{{ blogs_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /blogs/index.html' | remove: 'title: 招生兴趣' }}
+{{ blogs_content | split: '---' | last }}
