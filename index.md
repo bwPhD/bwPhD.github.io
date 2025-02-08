@@ -12,9 +12,7 @@ layout: page
 
 ---
 
-### 电子邮箱
-
-wangbinwork@seu.edu.cn
+### 电子邮箱： wangbinwork@seu.edu.cn
 
 ---
 
@@ -23,6 +21,10 @@ wangbinwork@seu.edu.cn
 - 社会老年学
 - 人口学
 - 数字社会学
+
+---
+
+### 个人主页：www.binwangphd.com
 
 ---
 
