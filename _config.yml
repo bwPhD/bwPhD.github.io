@@ -1,5 +1,5 @@
 title: 汪斌
-# tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.
+# tagline: 
 # description: 东南大学社会学系讲师
 # Comment out url when working locally to resolve base urls correctly
 url: https://bwPhD.github.io
@@ -8,9 +8,9 @@ url: https://bwPhD.github.io
 owner:
   name: 汪斌
   avatar: 1.png
-  bio: ** 汪斌 东南大学社会学系讲师 ** 
+  bio: 汪斌 东南大学社会学系讲师 
   email: wangbinseu@edu.com.cn
-  scholar: https://rwxy.seu.edu.cn/2023/0912/c8792a464254/pagem.htm
+  organization: https://rwxy.seu.edu.cn/2023/0912/c8792a464254/pagem.htm
   # cv: x.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
