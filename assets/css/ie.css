@@ -138,7 +138,7 @@ h6 { font-weight: 400; }
 /* 链接样式（使用配色方案中链接色与悬停色） */
 a { text-decoration: none; color: #ad5d07; }
 a:visited { color: #ad5d07; }
-a:hover { color: #264A33; }
+a:hover { color: #1C2945; }
 a:focus { outline: thin dotted; color: #ad5d07; }
 a:hover, a:active { outline: 0; }
 b, strong { font-weight: 700; }
@@ -282,15 +282,15 @@ svg:not(:root) { overflow: hidden; }
   transition: 0.4s linear;
 }
 .btn:visited { border: 4px double #bf874b; }
-.btn:hover { border: 4px double #264A33; }
+.btn:hover { border: 4px double #1C2945; }
 .btn:first-child { *margin-left: 0; }
 .btn-inverse {
-  border: 4px double #264A33;
-  color: #264A33;
+  border: 4px double #1C2945;
+  color: #1C2945;
   background-color: #fff;
 }
-.btn-inverse:visited { color: #264A33; border-color: #264A33; }
-.btn-inverse:hover { color: #264A33; border-color: #264A33; }
+.btn-inverse:visited { color: #1C2945; border-color: #1C2945; }
+.btn-inverse:hover { color: #1C2945; border-color: #1C2945; }
 .btn-small { font-size: 60%; padding: 6px 12px; }
 
 /* 内容容器 */
@@ -563,10 +563,10 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.toc header { background: #264A33; }
+.toc header { background: #1C2945; }
 .toc h3 { margin: 0; padding: 5px 10px; color: #ffffff; }
 .toc h3:hover { cursor: pointer; }
-.toc ul { margin: 2px 0 0; padding: 0; background: #264A33; line-height: 1; }
+.toc ul { margin: 2px 0 0; padding: 0; background: #1C2945; line-height: 1; }
 .toc li {
   display: block;
   margin: 0;
@@ -615,7 +615,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   margin-top: 1em;
   padding-top: 2em;
   padding-bottom: 3em;
-  background-color: #264A33;
+  background-color: #1C2945;
 }
 .footer-wrap:before, .footer-wrap:after { display: table; content: ""; }
 .footer-wrap:after { clear: both; }
@@ -674,7 +674,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
 
 /* 浏览器提示 */
 .chrome-frame {
-  background: #264A33;
+  background: #1C2945;
   margin: 0 0 2em 0;
   padding: 10px;
   text-align: center;
@@ -864,14 +864,4 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 /* 如果导航栏的背景色仍然没有生效，可以尝试 */
 .navbar {
   background-color:#0E182E !important;
-}
-
-/* 如果菜单项（子元素）仍然有别的颜色，可以强制修改 */
-.navbar a, .top-navigation a, .menu a {
-  color: #FFFFFF !important;  /* 让导航栏上的链接文字也变白 */
-}
-
-.footer *, .footer-wrap * {
-  background-color: #1C2945 !important;
-  color: #FFFFFF !important;
 }
