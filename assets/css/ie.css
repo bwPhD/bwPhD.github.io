@@ -1,128 +1,80 @@
-/* 兼容 HTML5 结构标签 */
-article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
-  display: block;
-}
+/* 通用布局 */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+audio, canvas, video { display: inline-block; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden] { display: none; }
 
-/* 隐藏无控件的音频 */
-audio:not([controls]) {
-  display: none;
-  height: 0;
-}
+/* 统一设置 */
+html, body { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; background-color: transparent; color: #fff; word-wrap: normal; }
+body { color: #333332; }
 
-[hidden] {
-  display: none;
-}
+h1, h2, h3, h4, h5, h6, p, a, li, blockquote, dt, dd, label, legend, th, td, input, select, textarea { color: #fff !important; }
+a:focus { outline: thin dotted; }
+a:active, a:hover { outline: 0; }
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
+pre { white-space: pre-wrap; }
+q { quotes: "\201C" "\201D" "\2018" "\2019"; }
 
-html {
-  font-family: sans-serif;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  background-color: #1C2945;
-}
+/* 统一字体样式 */
+@font-face { font-family: "Ampersand"; src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua"); unicode-range: U+270C; }
+@font-face { font-family: "Ampersand"; src: local("Georgia"); unicode-range: U+270C; }
+.ampersand-placeholder { font-family: Verdana, sans-serif; }
 
-body {
-  margin: 0;
-  color: #FFFFFF;
-  word-wrap: break-word;
-}
+/* 统一按钮样式 */
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; line-height: normal; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
 
-/* 设置全局字体颜色 */
-p, h1, h2, h3, h4, h5, h6, span, a, li, blockquote {
-  color: #FFFFFF;
-}
+/* 图片和媒体 */
+img, svg:not(:root) { max-width: 100%; height: auto; border-width: 0; vertical-align: middle; -ms-interpolation-mode: bicubic; }
 
-/* 取消部分默认样式 */
-b, strong {
-  font-weight: bold;
-}
-q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
-}
+/* 清理浮动 */
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after { display: table; content: ""; }
+.clearfix:after { clear: both; }
 
-/* 图片优化 */
-img {
-  border: 0;
-  max-width: 100%;
-  height: auto;
-}
-
-/* 字体引入 */
-@font-face {
-  font-family: "Ampersand";
-  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
-  unicode-range: U+270C;
-}
-
-/* 响应式布局优化 */
+/* 响应式设计 */
 @media (max-width: 767px) {
-  .navbar, .navigation-wrapper, .top-navigation {
-    background-color: #0E182E;
-  }
+  .visible-phone { display: inherit !important; }
+  .hidden-phone, .hidden-desktop { display: none !important; }
 }
 
-/* 目录优化，改用 sticky 以提升性能 */
-.toc {
-  position: sticky;
-  top: 100px;
-  width: 20%;
-  background: #0E182E;
-  box-shadow: none;
+@media (min-width: 768px) and (max-width: 979px) {
+  .visible-tablet { display: inherit !important; }
+  .hidden-tablet, .hidden-desktop { display: none !important; }
 }
 
-/* 按钮优化，减少 transition 渲染负担 */
-.btn {
-  display: inline-block;
-  padding: 12px 24px;
-  margin-bottom: 2em;
-  text-align: center;
-  text-transform: uppercase;
-  border: 2px solid #bf874b;
-  border-radius: 25px;
-  cursor: pointer;
-}
+/* 按钮样式 */
+.btn { display: inline-block; padding: 12px 24px; margin-bottom: 2em; line-height: 1; text-align: center; text-transform: uppercase; vertical-align: middle; border: 4px double #bf874b; border-radius: 50px; cursor: pointer; transition: 0.4s linear; }
+.btn:visited { border: 4px double #bf874b; }
+.btn:hover { border: 4px double #1C2945; }
 
-.btn:hover {
-  border-color: #1C2945;
-}
+/* 页面布局 */
+.well { padding: 19px; background-color: #F8F5F2; border: 1px solid #e3e3e3; border-radius: 4px; box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); }
+.footer-wrap { margin: 0 auto; width: 100%; padding-top: 2em; padding-bottom: 3em; background-color: #1C2945; color: #fff; }
 
-/* 链接优化 */
-a {
-  text-decoration: none;
-  color: #ad5d07;
-}
+/* 文字效果 */
+mark { background: #bf874b; color: #fff; }
+b, strong { font-weight: bold; }
 
-a:hover {
-  color: #F4B56F;
-}
+/* 调整表单输入样式 */
+input, textarea, select { display: inline-block; width: 100%; padding: 4px; margin-bottom: 1.25px; background-color: #ffffff; border: 1px solid #cccccc; color: #333332; }
+input:focus, textarea:focus { border-color: #000000; outline: 0; }
 
-/* 避免不必要的 box-shadow 渲染负担 */
-.footer-wrap {
-  background-color: #1C2945;
-}
+/* 导航样式 */
+.navbar, .top-navigation, .menu { background-color: #0E182E !important; }
+.navbar a, .navigation-wrapper a, .top-navigation a, .menu a { color: #fff !important; font-weight: bold; text-transform: uppercase; transition: color 0.1s ease-in-out; }
+.navbar a:hover, .top-navigation a:hover, .menu a:hover { color: #F4B56F !important; background-color: transparent !important; }
 
-/* 针对 awards 页面优化 */
-.awards-page h1, .awards-page h2, .awards-page h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  color: #F4B56F;
-}
+/* 图片网格 */
+.image-grid { list-style: none; padding: 0; }
+.image-grid li { display: inline; width: 16.666667%; }
 
-.awards-page p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
+/* 响应式排版 */
+html { font-size: 95%; }
+.site-name { display: inline; float: left; width: 16.666667%; margin: 0 4.166667%; }
+.top-navigation { display: inline; float: left; width: 75%; }
 
-/* 移除不必要的 box-shadow */
-.awards-page .box-shadow {
-  box-shadow: none;
-}
-
-/* 让导航栏字体颜色更易识别 */
-.navbar a, .top-navigation a {
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-.navbar a:hover {
-  color: #F4B56F;
-}
+/* 深色模式 */
+.dark-mode { background-color: #1C2945; color: #F3B26D; }
+.dark-mode a { color: #F3B26D; }
+.dark-mode .footer-wrap { background-color: #0E182E; }
