@@ -32,7 +32,6 @@ wangbinwork@seu.edu.cn
 {% include publications.md %}
 {% endcapture %}
 {{ publications_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /publications/index.html' | remove: 'title: 成果' }}
-
 ---
 
 <br>
@@ -41,8 +40,6 @@ wangbinwork@seu.edu.cn
 {% include awards.md %}
 {% endcapture %}
 {{ awards_content | split: '---' | last }}
-
-
 ---
 
 <br>
