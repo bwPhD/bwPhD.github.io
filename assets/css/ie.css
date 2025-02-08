@@ -765,9 +765,8 @@ html { font-size: 112.5%; }
   float: left;
   width: 12.5%;
   margin-left: 16.666667%;
-  color:#ffffff;
 }
-.top-navigation { display: inline; float: left; width: 66.666667%; color:#ffffff;}
+.top-navigation { display: inline; float: left; width: 66.666667%;}
 .image-wrap:after { left: 33.333333%; }
 .image-wrap .headline-wrap { margin-left: 8.333333%; }
 #main article { display: inline; float: left; width: 37.5%; }
