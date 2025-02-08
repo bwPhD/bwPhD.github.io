@@ -15,7 +15,7 @@ title: 招生兴趣
 
 <br>
 
-##  [欢迎各位优秀同学联系！ wangbinwork@seu.edu.cn]
+##  [欢迎各位优秀同学联系！ E-mail：wangbinwork@seu.edu.cn]
 
 
 <br>

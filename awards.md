@@ -3,6 +3,7 @@ layout: page
 permalink: /awards/index.html
 title: Awards
 ---
+
 - **2024年** 入选中国知网高被引学者Top1%
 - **2024年** 第十三届钱学森城市学（人口）金奖提名奖(奖金额度2万元)
 - **2023年** 北京大学优秀博士学位论文
