@@ -701,7 +701,6 @@ html { font-size: 95%; }
   width: 16.666667%;
   margin-left: 4.166667%;
   margin-right: 4.166667%;
-  color:#F4B56F;
 }
 .top-navigation {
   display: inline;
@@ -709,7 +708,6 @@ html { font-size: 95%; }
   width: 75%;
   margin-left: 0;
   margin-right: 0;
-  color:#F4B56F;
 }
 .image-wrap .headline-wrap, .image-wrap:after { left: 25%; }
 .image-wrap .headline-wrap { margin-left: 0; }
@@ -882,22 +880,33 @@ b, strong {
 }
 
 
-/* 鼠标悬停时的效果 */
+
+
+/* 默认导航栏样式 */
+.navbar a, 
+.navigation-wrapper a, 
+.top-navigation a, 
+.menu a {
+  color: #FFFFFF !important; /* 默认白色字体 */
+  text-decoration: none;
+  padding: 10px 15px; /* 适当调整间距 */
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 平滑过渡效果 */
+}
+
+/* 鼠标悬停时的字体颜色变为黄色 */
 .navbar a:hover, 
 .navigation-wrapper a:hover, 
 .top-navigation a:hover, 
 .menu a:hover {
-  color: #F4B56F  !important; /* 变为白色 */
-  background-color:  #F4B56F  !important; /* 深橙色 */
-  border-radius: 5px; /* 添加圆角 */
-  padding: 5px; /* 添加一些内边距，使效果更明显 */
+  color:#F4B56F  !important; /* 变为金黄色 */
+  background-color: transparent; /* 保持背景色不变 */
 }
 
-/* 确保激活（当前页面）链接样式 */
+/* 确保激活（当前页面）链接的颜色 */
 .navbar .active a, 
 .navigation-wrapper .active a, 
 .top-navigation .active a, 
 .menu .active a {
-  color:  #F4B56F  !important;
-  background-color:  #F4B56F  !important; /* 深橙色 */
+  color: #F4B56F  !important; /* 保持金黄色 */
+  font-weight: bold;
 }
