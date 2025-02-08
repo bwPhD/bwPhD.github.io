@@ -49,10 +49,3 @@ wangbinwork@seu.edu.cn
 {% endcapture %}
 {{ blogs_content | split: '---' | last }}
 ---
-
-<br>
-
-{% capture blogs_content %}
-{% include blogs.md %}
-{% endcapture %}
-{{ blogs_content | split: '---' | last }}
