@@ -35,36 +35,36 @@ wangbinwork@seu.edu.cn
 
 ---
 
+<!-- 加载页面  提取内容 -->
 <div id="dynamic-content">
-  <p>正在加载内容...</p>
+  <p> </p>
 </div>
 
 <script>
-  // 按指定顺序加载的页面列表
+  // 需要加载的页面列表（采用绝对 URL）
   const pages = [
-    "/publications/",
-    "/awards/",
-    "/teach/",
-    "/blogs/"
+    "https://bwphd.github.io/publications/",
+    "https://bwphd.github.io/awards/",
+    "https://bwphd.github.io/teach/",
+    "https://bwphd.github.io/blogs/"
   ];
 
   async function loadContent() {
-    let contentDiv = document.getElementById("dynamic-content");
+    const contentDiv = document.getElementById("dynamic-content");
     contentDiv.innerHTML = ""; // 清空加载提示
 
     for (const page of pages) {
       try {
-        let response = await fetch(page);
-        let text = await response.text();
-        
-        // 提取<body>标签内部的HTML
-        let tempDiv = document.createElement("div");
-        tempDiv.innerHTML = text;
-        let bodyContent = tempDiv.querySelector("body");
+        const response = await fetch(page);
+        const text = await response.text();
 
-        // 添加到页面
+        // 提取 <body> 标签内部的 HTML 内容
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = text;
+        const bodyContent = tempDiv.querySelector("body");
+
         if (bodyContent) {
-          contentDiv.innerHTML += `<section>${bodyContent.innerHTML}</section>`;
+          contentDiv.innerHTML += bodyContent.innerHTML;
         } else {
           contentDiv.innerHTML += `<p>无法加载 ${page}</p>`;
         }
@@ -74,6 +74,6 @@ wangbinwork@seu.edu.cn
     }
   }
 
-  // 页面加载时自动调用
+  // 页面加载完成后自动调用加载函数
   loadContent();
 </script>
