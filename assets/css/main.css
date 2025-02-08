@@ -5,6 +5,8 @@ audio:not([controls]){display:none;height:0;}
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
 body{margin:0;}
 body { background-color: transparent; }
+body, p, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  color: #FFFFFF !important;}
 a:focus{outline:thin dotted;}
 a:active,a:hover{outline:0;}
 h1{font-size:2em;margin:0.67em 0;}

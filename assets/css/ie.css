@@ -5,6 +5,10 @@ audio:not([controls]) { display: none; height: 0; }
 [hidden] { display: none; }
 html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 body { margin: 0; }
+body { background-color: transparent; }
+body, p, h1, h2, h3, h4, h5, h6, article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  color: #FFFFFF !important;
+}
 
 /* 焦点与状态 */
 a:focus { outline: thin dotted; }
@@ -403,12 +407,7 @@ input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focu
 .form-search .radio input[type="radio"], .form-search .checkbox input[type="checkbox"] { float: left; margin-left: 0; margin-right: 3px; }
 
 /* 整体页面背景与文字（亮色调：背景为 home_section_odd #fff） */
-html {
-  background-color: #1C2945;
-  font-family: 'PT Serif', serif;
-  font-color: #333332;
-  font-size: 90%;
-}
+html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;font-size:90%;}
 
 /* 导航与站名（如需补充可在此处添加） */
 .navigation-wrapper {
