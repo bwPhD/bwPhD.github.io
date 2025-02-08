@@ -470,9 +470,12 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 }
 
 /* 确保 Markdown 加粗的文字也变黄 */
-b, strong {
-  color: #F4B56F !important;
+
+strong, b, .bold {
+  font-weight: bold;
+  color:  #F4B56F ;
 }
+
 
 hr {
   display: none !important;
