@@ -34,23 +34,26 @@ www.binwangphd.com
 
 {% capture publications_content %}
 {% include publications.md %}
-{% endcapture %}
-{{ publications_content | split: '---' | last }}
+{% endcapture %}{{ publications_content | split: '---' | last }}
+
 ---
+
+
 
 <br>
 
 {% capture awards_content %}
 {% include awards.md %}
-{% endcapture %}
-{{ awards_content | split: '---' | last }}
+{% endcapture %} {{ awards_content | split: '---' | last }}
+
 ---
+
+
 
 <br>
 
 {% capture blogs_content %}
 {% include blogs.md %}
-{% endcapture %}
-{{ blogs_content | split: '---' | last }}
+{% endcapture %} {{ blogs_content | split: '---' | last }}
 
 ---
