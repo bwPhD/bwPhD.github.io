@@ -866,8 +866,8 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 
 /* 设置导航栏文本颜色和背景颜色 */
 .navbar, .navigation-wrapper, .top-navigation, .menu, .menu a, .menu li, .menu li a {
-  color: #FFFFFF !important;  /* 让导航栏内的文字变白，提高对比度 */
-  background-color: #0E182E !important;  /* 设置导航栏背景色为棕黄色 */
+  color:#F4B56F  !important;  /* 让导航栏内的文字变白，提高对比度 */
+  background-color: #F4B56F !important;  /* 设置导航栏背景色为棕黄色 */
 }
 
 /* 如果导航栏的背景色仍然没有生效，可以尝试 */
