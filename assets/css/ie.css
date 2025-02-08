@@ -432,6 +432,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   margin-left: 8.333333%;
   margin-right: 8.333333%;
   margin-bottom: 1em;
+
 }
 .top-navigation {
   margin: 0 auto;
@@ -764,8 +765,9 @@ html { font-size: 112.5%; }
   float: left;
   width: 12.5%;
   margin-left: 16.666667%;
+  color:#ffffff;
 }
-.top-navigation { display: inline; float: left; width: 66.666667%; }
+.top-navigation { display: inline; float: left; width: 66.666667%; color:#ffffff;}
 .image-wrap:after { left: 33.333333%; }
 .image-wrap .headline-wrap { margin-left: 8.333333%; }
 #main article { display: inline; float: left; width: 37.5%; }
@@ -893,14 +895,6 @@ b, strong {
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; /* 过渡效果 */
 }
 
-/* 鼠标悬停时字体变为黄色 */
-.navbar a:hover, 
-.navigation-wrapper a:hover, 
-.top-navigation a:hover, 
-.menu a:hover {
-  color: #F4B56F !important; /* 变为金黄色 */
-  background-color: transparent; /* 保持背景色不变 */
-}
 
 /* 当前激活（选中）页面的导航字体颜色仍为黄色 */
 .navbar .active a, 
