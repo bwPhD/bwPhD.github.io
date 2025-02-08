@@ -865,3 +865,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 .navbar {
   background-color:#0E182E !important;
 }
+
+b, strong {
+  color: #F4B56F !important;  /* 确保 Markdown 加粗文字为橙黄色 */
+}
