@@ -12,7 +12,7 @@ layout: page
 
 ---
 
-### 电子邮箱：
+### 电子邮箱
 
 wangbinwork@seu.edu.cn
 
