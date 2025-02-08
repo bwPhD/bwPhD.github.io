@@ -24,6 +24,8 @@ wangbinwork@seu.edu.cn
 - 人口学
 - 数字社会学
 
+---
 
+{% include publications.md %}
 
 
