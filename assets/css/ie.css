@@ -870,3 +870,8 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 .navbar a, .top-navigation a, .menu a {
   color: #FFFFFF !important;  /* 让导航栏上的链接文字也变白 */
 }
+
+.footer *, .footer-wrap * {
+  background-color: #1C2945 !important;
+  color: #FFFFFF !important;
+}
