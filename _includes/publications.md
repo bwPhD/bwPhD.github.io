@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: 成果
 ---
 
-## 学术论文
+## **学术论文**
 ### 独作或一作
 
 - **Wang, B**. Lu J. (2024). Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 79(8) (SSCI & SCI，JCR Q1，**老年学TOP刊**)
@@ -38,7 +38,7 @@ title: 成果
 
 ---
 
-## 课题项目
+## **课题项目**
 ### 主持项目 
 - 国家社科基金青年项目“中国老年人健康生活方式养成机制与改善策略研究”(24CRK006) 在研
 - 江苏省社科基金青年项目“数智时代背景下老年人健康不平等消解机制及政策优化研究”，(24SHC007)  在研
