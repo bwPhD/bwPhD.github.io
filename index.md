@@ -2,11 +2,7 @@
 layout: page
 ---
 
-<br>
-
 ## **个人简介**
-
-<br>
 
 **汪斌**，东南大学社会学系讲师，硕士生导师。北京大学博士(**PhD**，2023年)。 
 
@@ -51,12 +47,10 @@ wangbinwork@seu.edu.cn
 
 <br>
 
-{% capture teach_content %}
-{% include teach.md %}
+{% capture blogs_content %}
+{% include blogs.md %}
 {% endcapture %}
-{{ teach_content | remove: '---' | remove: 'layout: page' | remove: 'permalink: /blogs/index.html' | remove: 'permalink: /teach/index.html title: 教学' }}
-
-
+{{ blogs_content | split: '---' | last }}
 ---
 
 <br>
