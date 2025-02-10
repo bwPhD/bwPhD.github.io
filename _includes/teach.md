@@ -4,7 +4,7 @@ permalink: /teach/index.html
 title: 教学
 ---
 
-## 开设课程
+## **开设课程**
 
 ### 本科生课程
 - 初级社会统计学
