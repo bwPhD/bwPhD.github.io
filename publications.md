@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: 发表
 ---
 
-## 学术论文
+## **学术论文**
 ### 独作或一作
 
 - **Wang, B**. Lu J. (2024). Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 79(8) (SSCI & SCI，JCR Q1，**老年学TOP刊**)
