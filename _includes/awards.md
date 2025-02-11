@@ -1,8 +1,4 @@
----
-layout: page
-permalink: /awards/index.html
-title: Awards
----
+
 
 ## **学术荣誉**
 ### 学术获奖

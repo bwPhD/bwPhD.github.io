@@ -1,8 +1,4 @@
----
-layout: page
-permalink: /teach/index.html
-title: 教学
----
+
 
 ## **开设课程**
 

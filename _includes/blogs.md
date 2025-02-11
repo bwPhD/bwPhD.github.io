@@ -1,8 +1,3 @@
----
-layout: page
-permalink: /blogs/index.html
-title: 招生兴趣
----
 
 ## **招生兴趣**
 ###  招生数量
