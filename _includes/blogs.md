@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /blogs/index.html
+title: 招生兴趣
+---
 
 ## **招生兴趣**
 ###  招生数量
@@ -12,7 +17,6 @@
 
 
 ---
-
 
 **🌞 欢迎各位优秀同学联系！📧 E-mail：wangbinwork@seu.edu.cn**
 

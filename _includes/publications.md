@@ -1,3 +1,8 @@
+---
+layout: page
+permalink: /publications/index.html
+title: 发表
+---
 
 ## **学术论文**
 ### 独作或一作
