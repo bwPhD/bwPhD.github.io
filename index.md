@@ -34,7 +34,8 @@ www.binwangphd.com
 
 {% capture publications_content %}
 {% include publications.md %}
-{% endcapture %}{{ publications_content | replace: "layout: page permalink: /publications/index.html title: 发表 —", "" }}
+{% assign publications_parts = publications_content | split: '---' %}
+{{ publications_parts[2] | markdownify }}
 
 ---
 
@@ -42,7 +43,10 @@ www.binwangphd.com
 
 {% capture awards_content %}
 {% include awards.md %}
-{% endcapture %}{{ awards_content | replace: "layout: page permalink: /awards/index.html title: Awards —", "" }}
+{% endcapture %}
+{% assign awards_parts = awards_content | split: '---' %}
+{{ awards_parts[2] | markdownify }}
+
 
 ---
 
@@ -50,4 +54,5 @@ www.binwangphd.com
 
 {% capture blogs_content %}
 {% include blogs.md %}
-{% endcapture %}{{ blogs_content | replace: "layout: page permalink: /blogs/index.html title: 招生兴趣 —", "" }}
+{% assign blogs_parts = blogs_content | split: '---' %}
+{{ blogs_parts[2] | markdownify }}

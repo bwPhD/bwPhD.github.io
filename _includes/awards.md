@@ -1,4 +1,8 @@
-
+---
+layout: page
+permalink: /awards/index.html
+title: Awards
+---
 
 ## **学术荣誉**
 ### 学术获奖
@@ -21,4 +25,4 @@
 
 ### 社会服务
 
-人口与发展、社会建设 、Plos One等期刊审稿专家
+人口与发展、社会建设 、Plos One审稿专家
