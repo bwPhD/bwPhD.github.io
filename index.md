@@ -37,6 +37,7 @@ www.binwangphd.com
 {% assign publications_parts = publications_content | split: '---' %}
 {{ publications_parts[2] | markdownify }}
 
+
 ---
 
 <br>
@@ -54,5 +55,6 @@ www.binwangphd.com
 
 {% capture blogs_content %}
 {% include blogs.md %}
+{% assign blogs_parts = blogs_content | split: '---' %}
 {% assign blogs_parts = blogs_content | split: '---' %}
 {{ blogs_parts[2] | markdownify }}
