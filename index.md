@@ -33,7 +33,7 @@ www.binwangphd.com
 
 {% capture publications_content %}
 {% include publications.md %}
-{% endcapture %}{{ publications_content }}
+{% endcapture %}{{ publications_content | replace: "layout: page permalink: /publications/index.html title: 发表 —", "" }}
 
 ---
 
@@ -41,7 +41,7 @@ www.binwangphd.com
 
 {% capture awards_content %}
 {% include awards.md %}
-{% endcapture %}{{ awards_content }}
+{% endcapture %}{{ awards_content | replace: "layout: page permalink: /awards/index.html title: Awards —", "" }}
 
 ---
 
@@ -49,4 +49,4 @@ www.binwangphd.com
 
 {% capture blogs_content %}
 {% include blogs.md %}
-{% endcapture %}{{ blogs_content }}
+{% endcapture %}{{ blogs_content | replace: "layout: page permalink: /blogs/index.html title: 招生兴趣 —", "" }}
