@@ -25,4 +25,4 @@ title: Awards
 
 ### 社会服务
 
-人口与发展、社会建设 、Plos One审稿专家
+人口与发展、社会建设 、Plos One等期刊审稿专家
