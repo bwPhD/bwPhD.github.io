@@ -10,6 +10,7 @@ title: 发表
 - **Wang, B**. Lu J. (2024). Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, The Journals of Gerontology, Series B: Psychological Sciences and Social Sciences, 79(8) (SSCI & SCI，JCR Q1，**老年学TOP刊**)
 - **Wang, B**. (2025). A comparative analysis of the impacts of digital lifestyles on the physical, mental, and social health among older internet users, Humanities & Social Sciences Communications. (SSCI, JCR Q1)
 - **Wang, B**. (2025). Intelligent health management technology use and loneliness among older adults with disabilities: the mediating role of social networks, Current Psychology. (SSCI, JCR Q2)
+- **汪斌**.人口高质量发展视域下的健康老龄化：新国情、新机制与新路径. 云南民族大学学报(哲学社会科学版), 2025第2期(CSSCI)
 - **汪斌**.中国城乡老年数字失能现状及影响机制——基于数字不平等多维解释框架. 浙江工商大学学报, 2024第5期 (CSSCI)
 - **汪斌**.数字红利视角下老年数字失能表现、成因及治理新路径. 云南民族大学学报(哲学社会科学版), 2024第2期(CSSCI，**高等学校文科学术文摘转载**)
 - **汪斌**,朱涛.数字转型背景下互联网使用与青年性别观念变迁——基于CGSS 2012—2021年数据的实证分析.中国青年研究, 2024第3期(CSSCI)
