@@ -34,14 +34,14 @@ title: 发表
   - 陆杰华,**汪斌**.乡村振兴背景下农村老年人健康老龄化影响机理探究——基于CLHLS 2018年数据.中国农业大学学报(社会科学版),2022第1期 (CSSCI, **新华文摘网版全文转载**) 
   - Xie, L., **Wang, B**. (2022). Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. International Journal of Social Welfare, 31(4), 476–491. (SSCI)
 
-- **2021年**
+- 2021年
 
   <br>
 
   - **汪斌**.中国老年人社区医养融合服务利用的影响因素.宁夏社会科学,2021第5期 (CSSCI) 
   - **汪斌**.中国流动人口健康研究:理论基础、实证进展与前瞻思考.兰州学刊，2021第1期 (CSSCI扩, **高等学校文科学术文摘转载, 新华文摘篇目辑览**) 
 
-- **2020年及以前** 
+- 2020年及以前 
   
   <br>
 
