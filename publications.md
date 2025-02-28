@@ -24,9 +24,10 @@ title: 发表
   - **汪斌**,周骥腾.基于MIMIC模型的社会治理主观评价研究.统计与信息论坛，2022第12期. (CSSCI)
   - **汪斌**.中国老年人口健康现状、变动趋势及其社会经济影响——基于“七普”数据的分析.云南民族大学学报(哲学社会科学版)，2022第8期(CSSCI，**新华文摘论点摘编**) 
   - **汪斌**,武继磊,高云霞.养老机构床位空置分布影响因素的空间分析：以北京市为例.人口与发展, 2022第4期(CSSCI，**获第十三届钱学森城市学（人口）金奖提名奖，入选2022年《中国人口年鉴》**) 
+  - **汪斌**.健康中国背景下国民健康意识特征及影响机制.深圳社会科学,2022第3期
   - 陆杰华,**汪斌**.乡村振兴背景下农村老年人健康老龄化影响机理探究——基于CLHLS 2018年数据.中国农业大学学报(社会科学版),2022第1期 (CSSCI, **新华文摘网版全文转载**) 
   - 陆杰华,**汪斌**.乡村振兴背景下农村老年人健康老龄化影响机理探究——基于CLHLS 2018年数据.中国农业大学学报(社会科学版),2022第1期 (CSSCI, **新华文摘网版全文转载**) 
-  - Xie, L., **Wang, B**. (2022). Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. International Journal of Social Welfare, 31(4), 476–491. (SSCI)
+  - Xie, L., **Wang, B (通讯)**. (2022). Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. International Journal of Social Welfare, 31(4), 476–491. (SSCI)
 
 - 2021年
   - **汪斌**.中国老年人社区医养融合服务利用的影响因素.宁夏社会科学,2021第5期 (CSSCI) 
