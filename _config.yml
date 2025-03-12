@@ -13,6 +13,8 @@ owner:
   avatar: 1.png
   bio: 东南大学社会学系
   email: wangbinseu@edu.com.cn
+  scholar: https://scholar.google.com/citations?hl=zh-CN&user=k9viofYAAAAJ&view_op=list_works&sortby=pubdate
+  
   # cv: x.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
@@ -25,7 +27,7 @@ owner:
   # instagram: lancecai2002
   # lastfm:
   # tumblr:
-  For Google Authorship: https://scholar.google.com/citations?hl=zh-CN&user=k9viofYAAAAJ&view_op=list_works&sortby=pubdate
+  # For Google Authorship: https://scholar.google.com/citations?hl=zh-CN&user=k9viofYAAAAJ&view_op=list_works&sortby=pubdate
   # google_plus: https://scholar.google.com/citations?hl=zh-CN&user=k9viofYAAAAJ&view_op=list_works&sortby=pubdate
 
 # Analytics and webmaster tools stuff goes here
