@@ -7,7 +7,7 @@ body { margin: 0; }
 body { background-color: transparent; }
 /* 全局文本颜色覆盖为白色 */
 body, html, p, h1, h2, h3, h4, h5, h6, span, a, li, blockquote, dt, dd, label, legend, th, td, input, select, textarea {
-  color: #F5F5DC !important;
+  color: #FDFDFD!important;
 }
 
 /* 焦点与状态 */
@@ -860,12 +860,12 @@ html { font-size: 112.5%; }
 
 /* 让正文部分变为白色 */
 body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
-  color: #F5F5DC !important;
+  color: #FDFDFD!important;
 }
 
 /* 设置导航栏文本颜色和背景颜色 */
 .navbar, .navigation-wrapper, .top-navigation, .menu, .menu a, .menu li, .menu li a {
- /* color: #F5F5DC !important;  /* 让导航栏内的文字变白，提高对比度 */
+ /* color: #FDFDFD!important;  /* 让导航栏内的文字变白，提高对比度 */
   background-color: #0E182E !important;  /* 设置导航栏背景色为棕黄色 */
 }
 
@@ -882,7 +882,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 
 /* 默认导航项颜色（未选中状态） */
 .navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
-  color: #F5F5DC !important;  /* 默认白色 */
+  color: #FDFDFD!important;  /* 默认白色 */
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.1s ease-in-out;
