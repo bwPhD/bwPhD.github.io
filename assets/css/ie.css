@@ -7,7 +7,7 @@ body { margin: 0; }
 body { background-color: transparent; }
 /* 全局文本颜色覆盖为白色 */
 body, html, p, h1, h2, h3, h4, h5, h6, span, a, li, blockquote, dt, dd, label, legend, th, td, input, select, textarea {
-  color: #FFFFF0 !important;
+  color: #F5F5DC !important;
 }
 
 /* 焦点与状态 */
@@ -102,11 +102,11 @@ pre { white-space: pre; }
 code { white-space: pre; font-family: monospace; }
 body {
   word-wrap: normal;
-  color: #FFFFF0; /* 原先为 #333332 */
+  color: #F5F5DC; /* 原先为 #333332 */
 }
-abbr { font-variant: small-caps; font-weight: 400; text-transform: lowercase; color: #FFFFF0; }
+abbr { font-variant: small-caps; font-weight: 400; text-transform: lowercase; color: #F5F5DC; }
 abbr:hover { cursor: help; }
-h1, h2, h3, h4, h5, h6 { color: #FFFFF0; }
+h1, h2, h3, h4, h5, h6 { color: #F5F5DC; }
 .lining dt, .lining dd { display: inline; margin: 0; }
 .lining dt + dt:before, .lining dd + dt:before { content: "\A"; white-space: pre; }
 .lining dd + dd:before { content: ", "; }
@@ -331,7 +331,7 @@ input, textarea, select {
   width: 100%;
   padding: 4px;
   margin-bottom: 1.25px;
-  background-color: #FFFFF0;
+  background-color: #F5F5DC;
   border: 1px solid #cccccc;
   color: #333332;
 }
@@ -379,7 +379,7 @@ input[type="button"], input[type="reset"], input[type="submit"] {
   *overflow: visible;
 }
 select, input[type="file"] { *margin-top: 4px; }
-select { width: auto; background-color: #FFFFF0; }
+select { width: auto; background-color: #F5F5DC; }
 select[multiple], select[size] { height: auto; }
 textarea { resize: vertical; height: auto; overflow: auto; vertical-align: top; }
 input[type="hidden"] { display: none; }
@@ -501,7 +501,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   width: 0;
   height: 0;
   border: 20px solid transparent;
-  border-bottom-color: #FFFFF0;
+  border-bottom-color: #F5F5DC;
 }
 .image-wrap img {
   width: 100%;
@@ -515,7 +515,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
 }
 .image-wrap .headline-wrap h1,
 .image-wrap .headline-wrap h2 {
-  color: #FFFFF0;
+  color: #F5F5DC;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 .headline-wrap h1 {
@@ -572,7 +572,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 .toc header { background: #1C2945; }
-.toc h3 { margin: 0; padding: 5px 10px; color: #FFFFF0; }
+.toc h3 { margin: 0; padding: 5px 10px; color: #F5F5DC; }
 .toc h3:hover { cursor: pointer; }
 .toc ul { margin: 2px 0 0; padding: 0; background: #1C2945; line-height: 1; }
 .toc li {
@@ -583,7 +583,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   border-bottom: 1px solid #808080;
 }
 .toc li:last-child { border-bottom: 0 solid transparent; }
-.toc li a, .toc li a:hover { color: #FFFFF0; border-bottom: 0 solid transparent; }
+.toc li a, .toc li a:hover { color: #F5F5DC; border-bottom: 0 solid transparent; }
 .toc li a { padding: 10px; display: block; }
 .toc li ul { margin: 0; border-top: 1px solid #808080; }
 
@@ -659,7 +659,7 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   text-transform: uppercase;
   margin-bottom: 0;
 }
-.related-articles li { margin-bottom: 0; color: #FFFFF0; }
+.related-articles li { margin-bottom: 0; color: #F5F5DC; }
 .footer-icons li { display: inline-block; padding-right: 5px; }
 .footer-icons li a {
   font-size: 24px;
@@ -686,10 +686,10 @@ html{background-color:#1C2945;font-family:'PT Serif',serif;font-color:#333332;fo
   margin: 0 0 2em 0;
   padding: 10px;
   text-align: center;
-  color: #FFFFF0;
+  color: #F5F5DC;
 }
-.chrome-frame a { color: #FFFFF0; border-bottom: 1px dotted #FFFFF0; text-decoration: none; }
-.chrome-frame a:hover { border-bottom: 1px solid #FFFFF0; }
+.chrome-frame a { color: #F5F5DC; border-bottom: 1px dotted #F5F5DC; text-decoration: none; }
+.chrome-frame a:hover { border-bottom: 1px solid #F5F5DC; }
 
 /* 图片网格及排版调整 */
 .image-grid li { width: 16.666667%; }
@@ -860,12 +860,12 @@ html { font-size: 112.5%; }
 
 /* 让正文部分变为白色 */
 body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
-  color: #FFFFF0 !important;
+  color: #F5F5DC !important;
 }
 
 /* 设置导航栏文本颜色和背景颜色 */
 .navbar, .navigation-wrapper, .top-navigation, .menu, .menu a, .menu li, .menu li a {
- /* color: #FFFFF0 !important;  /* 让导航栏内的文字变白，提高对比度 */
+ /* color: #F5F5DC !important;  /* 让导航栏内的文字变白，提高对比度 */
   background-color: #0E182E !important;  /* 设置导航栏背景色为棕黄色 */
 }
 
@@ -882,7 +882,7 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
 
 /* 默认导航项颜色（未选中状态） */
 .navbar a, .navigation-wrapper a, .top-navigation a, .menu a {
-  color: #FFFFF0 !important;  /* 默认白色 */
+  color: #F5F5DC !important;  /* 默认白色 */
   font-weight: bold;
   text-transform: uppercase;
   transition: color 0.1s ease-in-out;
@@ -924,5 +924,5 @@ hr {
 }
 
 html {
-  font-size: 185%;
+  font-size: 188%;
 }
