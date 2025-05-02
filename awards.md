@@ -27,4 +27,4 @@ title: Awards
 
 ### 社会服务
 
-人口与发展、社会建设 、Plos One审稿专家
+人口与发展、山东大学学报（哲学社会科学版）、社会建设 、BMC Public Health、Plos One审稿专家
