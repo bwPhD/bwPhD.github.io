@@ -13,7 +13,7 @@ layout: page
 ---
 
 ### 电子邮箱： 
-- pomang@126.com (长期使用)
+- pomang@126.com (**长期使用，稳定邮箱**)
 - wangbinwork@seu.edu.cn
 
 ---
