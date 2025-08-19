@@ -7,7 +7,7 @@ title: 发表
 ## **学术论文**
 - Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, *The Journals of Gerontology, Series B: Psychological Sciencesand Social Sciences*, 2024 (SSCI & SCI，JCR Q1)
 - A comparative analysis of the impacts of digital lifestyles on the physical, mental, and social health among older internet users, *Humanities & Social Sciences Communications*.2025 (SSCI, JCR Q1)
-- Intelligent health management technology use and loneliness among older adults with disabilities: the mediating role of social networks, *Current Psychology*.2025 (SSCI, JCR Q2)
+- Intelligent health management technology use and loneliness among older adults with disabilities: the mediating role of social networks, *Current Psychology*.2025 (SSCI, JCR Q1)
 - 人口高质量发展视域下的健康老龄化：新国情、新机制与新路径. 云南民族大学学报(哲学社会科学版), 2025第2期(CSSCI)
 - 中国城乡老年数字失能现状及影响机制——基于数字不平等多维解释框架. 浙江工商大学学报, 2024第5期 (CSSCI)
 - 数字红利视角下老年数字失能表现、成因及治理新路径. 云南民族大学学报(哲学社会科学版), 2024第2期(CSSCI，**高等学校文科学术文摘转载**)
