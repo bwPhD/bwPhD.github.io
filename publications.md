@@ -5,9 +5,9 @@ title: 发表
 ---
 
 ## **学术论文**
-- Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, *The Journals of Gerontology, Series B: Psychological Sciencesand Social Sciences*, 2024 (SSCI & SCI，JCR Q1)
-- A comparative analysis of the impacts of digital lifestyles on the physical, mental, and social health among older internet users, *Humanities & Social Sciences Communications*.2025 (SSCI, JCR Q1)
-- Intelligent health management technology use and loneliness among older adults with disabilities: the mediating role of social networks, *Current Psychology*.2025 (SSCI, JCR Q1)
+- A comparative analysis of the impacts of digital lifestyles on the physical, mental, and social health among older internet users, *Humanities & Social Sciences Communications*.2025 
+- Intelligent health management technology use and loneliness among older adults with disabilities: the mediating role of social networks, *Current Psychology*.2025 
+- Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, *The Journals of Gerontology, Series B: Psychological Sciencesand Social Sciences*, 2024 
 - 人口高质量发展视域下的健康老龄化：新国情、新机制与新路径. 云南民族大学学报(哲学社会科学版), 2025第2期(CSSCI)
 - 中国城乡老年数字失能现状及影响机制——基于数字不平等多维解释框架. 浙江工商大学学报, 2024第5期 (CSSCI)
 - 数字红利视角下老年数字失能表现、成因及治理新路径. 云南民族大学学报(哲学社会科学版), 2024第2期(CSSCI，**高等学校文科学术文摘转载**)
@@ -19,7 +19,7 @@ title: 发表
 - 中国流动人口健康研究:理论基础、实证进展与前瞻思考.兰州学刊，2021第1期 (CSSCI扩, **高等学校文科学术文摘转载, 新华文摘篇目辑览**) 
 - 多维解释视角下中国老年人互联网使用的影响因素研究.人口与发展,2020第3期 (CSSCI) 
 - 中国老年人家庭代际经济支持模式研究.云南民族大学学报(哲学社会科学版),2020第2期(CSSCI) 
-- Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. *International Journal of Social Welfare*, 2022, 31(4), 476–491. (SSCI)
+- Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. *International Journal of Social Welfare*, 2022, 31(4), 476–491. 
 - 互联网使用如何影响中国老年人生活满意度?**人口研究**,2020第4期 (CSSCI)   
 - 积极老龄化视野下中国老年人社会参与模式及影响因素. **人口研究**,2019第3期(CSSCI) 
 - 乡村振兴背景下农村老年人健康老龄化影响机理探究——基于CLHLS 2018年数据.中国农业大学学报(社会科学版),2022第1期 (CSSCI, **新华文摘网版全文转载**) 
