@@ -24,7 +24,7 @@ layout: page
 - 人口学
 - 数智社会学
 - 社会政策
-- Social well-being
+- AI +
 
 ---
 
