@@ -32,5 +32,3 @@ layout: page
 www.binwangphd.com
 
 ---
-
-截止于2024年12月31日。
