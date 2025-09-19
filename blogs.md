@@ -16,7 +16,7 @@ title: 招生兴趣
   
 
 ### SRTP指导
-- 本科生SRTP指导可联系，对本科生要求同上
+- 本科生SRTP指导可联系
 
 ### 联系方式
 - 欢迎邮件联系!  wangbinwork@seu.edu.cn
