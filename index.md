@@ -8,7 +8,7 @@ layout: page
 
 ---
 
-在**Journal of Gerontology: Social Science**(社会老年学TOP刊) 及《人口研究》、《人口与发展》等SSCI和CSSCI来源刊物发表**20+**篇论文。论文总下载量**7w+**，总引用**1200+次**，H指数15，G指数22。**7次**被《新华文摘》、《高等学校文科学术文摘》、《人大复印报刊资料(人口学)》摘编或全文转载。获北京大学优秀博士学位论文荣誉、北京市优秀博士学位论文提名。政策建言被**全国政协**采纳。主持国家社会科学基金项目和江苏省社会科学基金项目。
+在**Journal of Gerontology: Social Science** (Gerontology领域TOP刊) 及《人口研究》、《人口与发展》等SSCI和CSSCI来源刊物发表**20+**篇论文。论文总下载量**7w+**，总引用**1200+次**，H指数15，G指数22。**7次**被《新华文摘》、《高等学校文科学术文摘》、《人大复印报刊资料(人口学)》摘编或全文转载。获北京大学优秀博士学位论文荣誉、北京市优秀博士学位论文提名。政策建言被**全国政协**采纳。主持国家社会科学基金项目和江苏省社会科学基金项目。
 
 ---
 
@@ -19,11 +19,11 @@ layout: page
 ---
 
 ### 研究兴趣
-- 社会老年学
-- 人口社会学
-- 计算社会学
-- 老龄健康与人口政策
-- AI社会学
+- Gerontology
+- Demography
+- Computational social science
+- Healthy Aging and Social Policy
+- Social Science of AI
 
 ---
 
