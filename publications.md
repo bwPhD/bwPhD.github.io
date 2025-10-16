@@ -19,7 +19,7 @@ title: 发表
 - 13.**汪斌**.中国流动人口健康研究:理论基础、实证进展与前瞻思考.兰州学刊，2021第1期 (CSSCI扩, **高等学校文科学术文摘转载, 新华文摘篇目辑览**) 
 - 12.**汪斌**.多维解释视角下中国老年人互联网使用的影响因素研究.人口与发展,2020第3期 (CSSCI) 
 - 11.**汪斌**.中国老年人家庭代际经济支持模式研究.云南民族大学学报(哲学社会科学版),2020第2期(CSSCI) 
-- 10.Xie, L., & **Wang, B** *.Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. *International Journal of Social Welfare*, 2022, 31(4), 476–491. 
+- 10.Xie, L., & **Wang, B (corresponding author)** .Chinese older adults’ personal–family life balance and its associations with social networks: The moderating role of internet use. *International Journal of Social Welfare*, 2022, 31(4), 476–491. 
 - 9.**汪斌**.健康中国背景下国民健康意识特征及影响机制.深圳社会科学，2022年第3期。
 - 8.**汪斌**.城市老年人经济参与的影响因素研究——基于多层Logistic回归模型.调研世界,2019年第2期。
 - 7.杜鹏,**汪斌**.互联网使用如何影响中国老年人生活满意度?**人口研究**,2020第4期 (CSSCI)   
