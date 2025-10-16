@@ -5,7 +5,7 @@ title: 发表
 ---
 
 ## **学术论文**
-- 24.**Wang, B** (corresponding author). Lu J. Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, *The Journals of Gerontology, Series B: Psychological Sciencesand Social Sciences*, 2024 (SSCI,JCR Q1，中科院TOP刊，老年学顶刊)
+- 24.**Wang, B** (corresponding author). Lu J. Life chances, subjective perceptions, and healthy lifestyles in older adults: longitudinal evidence from China, *The Journals of Gerontology, Series B: Psychological Sciencesand Social Sciences*, 2024 (SSCI,JCR Q1，中科院TOP刊，Gerontology领域TOP刊)
 - 23.**Wang, B**.Intelligent health management technology use and loneliness among older adults with disabilities: the mediating role of social networks, *Current Psychology*.2025 (SSCI,JCR Q1)
 - 22.**Wang, B**.A comparative analysis of the impacts of digital lifestyles on the physical, mental, and social health among older internet users, *Humanities & Social Sciences Communications*.2025 (SSCI,JCR Q1，Nature旗下期刊)
 - 21.**汪斌**.人口高质量发展视域下的健康老龄化：新国情、新机制与新路径. 云南民族大学学报(哲学社会科学版), 2025第2期(CSSCI)
