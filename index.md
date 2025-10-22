@@ -21,7 +21,7 @@ layout: page
 ### 研究兴趣
 - Gerontology
 - Demography
-- Computational social science
+- Computational Social Science
 - Healthy Aging and Social Policy
 - Social Science of AI
 
