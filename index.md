@@ -4,7 +4,7 @@ layout: page
 
 ## **个人简介**
 
-**汪斌**，东南大学社会学系讲师，东南大学中国特色社会主义发展研究院研究员。江苏省“双创博士”。硕士生导师；北京大学人口学博士 (**PhD**，2023年)。 
+**汪斌**，东南大学社会学系讲师，东南大学中国特色社会主义发展研究院研究员。江苏省“双创博士”。硕士生导师；北京大学人口学博士 (**PhD**)。 
 
 ---
 
@@ -19,11 +19,10 @@ layout: page
 ---
 
 ### 研究兴趣
-- Gerontology
-- Demography
-- Computational Social Science
-- Healthy Aging and Social Policy
-- Social Science of AI
+- Gerontology 
+- Demography  
+- Healthy Aging and Social Policy 
+
 
 ---
 
