@@ -19,9 +19,11 @@ layout: page
 ---
 
 ### 研究兴趣
-- Gerontology 
+- Digital Gerontology
+- Social Gerontology 
 - Demography  
 - Healthy Aging and Social Policy 
+
 
 
 ---
