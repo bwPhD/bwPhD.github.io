@@ -1,34 +1,35 @@
 ---
-layout: page
+layout: splash
+title: "正在更新中"
+permalink: /
 ---
 
-## **个人简介**
-
-**汪斌**，东南大学社会学系讲师，东南大学中国特色社会主义发展研究院研究员。江苏省“双创博士”。硕士生导师；北京大学人口学博士 (**PhD**)。 
-
----
-
-在**Journal of Gerontology: Social Science** (Gerontology领域TOP刊) 及《人口研究》、《人口与发展》等SSCI和CSSCI来源刊物发表**20+**篇论文。论文总下载量**7w+**，总引用**1300+次**，H指数15，G指数22。**7次**被《新华文摘》、《高等学校文科学术文摘》、《人大复印报刊资料(人口学)》摘编或全文转载。北京大学优博论文和北京市优博论文。政策建言被**全国政协**采纳1次。主持国家社会科学基金项目和江苏省社会科学基金项目。
-
----
-
-### 电子邮箱
-- pomang@126.com (**长期使用，稳定邮箱**)
-- wangbinwork@seu.edu.cn
-
----
-
-### 研究兴趣
-- Digital Gerontology
-- Social Gerontology 
-- Demography  
-- Healthy Aging and Social Policy 
-
-
-
----
-
-### 学术主页：
-www.binwangphd.com
-
----
+<section style="text-align:center; padding: 120px 0;">
+  <div style="
+    display:inline-block;
+    padding: 32px 40px;
+    border-radius: 24px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 20px 60px rgba(15,23,42,.18);
+    max-width: 520px;
+  ">
+    <p style="
+      letter-spacing: .3em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: #6b7280;
+      margin-bottom: 12px;
+    ">
+      网站正在维护中
+    </p>
+    <h1 style="font-size: 2.1rem; margin-bottom: 16px;">
+      正在更新中
+    </h1>
+    <p style="color:#6b7280; margin-bottom: 12px;">
+      页面内容正在整理与更新，稍后将以更好的形式与大家见面。
+    </p>
+    <p style="font-size:0.8rem; color:#9ca3af;">
+      请稍后再访问，感谢理解。
+    </p>
+  </div>
+</section>
