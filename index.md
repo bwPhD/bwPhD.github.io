@@ -26,13 +26,12 @@ permalink: /
       正在更新中
     </h1>
     <p style="color:#6b7280; margin-bottom: 12px;">
-      页面内容正在整理与更新，稍后将以更好的形式与大家见面。
+      页面内容正在更新，稍后将以更好的形式与大家见面。
     </p>
     <p style="font-size:0.8rem; color:#9ca3af;">
-      请稍后再访问，感谢理解。
     </p>
     <p style="font-size:0.8rem; color:#2563eb; margin-top: 8px;">
-      更新期间可直接联系
+    更新期间可直接联系
       <a href="mailto:wangbinwork@seu.edu.cn" style="color:#2563eb; text-decoration: underline;">
         wangbinwork@seu.edu.cn
       </a>
