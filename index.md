@@ -23,7 +23,7 @@ permalink: /
       NOTICE
     </p>
     <h1 style="font-size: 2.1rem; margin-bottom: 16px;">
-      网站近期正在维护中
+      网站正在维护中
     </h1>
     <p style="color:#6b7280; margin-bottom: 12px;">
       敬请期待！
