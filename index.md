@@ -20,18 +20,18 @@ permalink: /
       color: #6b7280;
       margin-bottom: 12px;
     ">
-      网站正在维护中
+      NOTICE
     </p>
     <h1 style="font-size: 2.1rem; margin-bottom: 16px;">
-      正在更新中
+      网站近期正在维护中
     </h1>
     <p style="color:#6b7280; margin-bottom: 12px;">
-      页面内容正在更新，稍后将以更好的形式与大家见面。
+      敬请期待！
     </p>
     <p style="font-size:0.8rem; color:#9ca3af;">
     </p>
     <p style="font-size:0.8rem; color:#2563eb; margin-top: 8px;">
-    更新期间可直接联系
+    维护期间可直接联系
       <a href="mailto:wangbinwork@seu.edu.cn" style="color:#2563eb; text-decoration: underline;">
         wangbinwork@seu.edu.cn
       </a>
