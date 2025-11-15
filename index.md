@@ -31,5 +31,11 @@ permalink: /
     <p style="font-size:0.8rem; color:#9ca3af;">
       请稍后再访问，感谢理解。
     </p>
+    <p style="font-size:0.8rem; color:#2563eb; margin-top: 8px;">
+      更新期间可直接联系
+      <a href="mailto:wangbinwork@seu.edu.cn" style="color:#2563eb; text-decoration: underline;">
+        wangbinwork@seu.edu.cn
+      </a>
+    </p>
   </div>
 </section>
