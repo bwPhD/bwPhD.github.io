@@ -1,40 +1,63 @@
 ---
-layout: splash
-title: "正在更新中"
-permalink: /
+layout: page
 ---
 
-<section style="text-align:center; padding: 120px 0;">
-  <div style="
-    display:inline-block;
-    padding: 32px 40px;
-    border-radius: 24px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 20px 60px rgba(15,23,42,.18);
-    max-width: 520px;
-  ">
-    <p style="
-      letter-spacing: .3em;
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      color: #6b7280;
-      margin-bottom: 12px;
-    ">
-      NOTICE
-    </p>
-    <h1 style="font-size: 2.1rem; margin-bottom: 16px;">
-      网站正在维护中
-    </h1>
-    <p style="color:#6b7280; margin-bottom: 12px;">
-      敬请期待！
-    </p>
-    <p style="font-size:0.8rem; color:#9ca3af;">
-    </p>
-    <p style="font-size:0.8rem; color:#2563eb; margin-top: 8px;">
-    维护期间可直接联系
-      <a href="mailto:wangbinwork@seu.edu.cn" style="color:#2563eb; text-decoration: underline;">
-        wangbinwork@seu.edu.cn
-      </a>
-    </p>
-  </div>
-</section>
+## **个人简介**
+
+**汪斌**，东南大学社会学系讲师、中国特色社会主义发展研究院研究员。入选江苏省“双创博士”人才引进奖励计划。硕士生导师；院长事务助理。北京大学博士(**PhD**，2023年)。 
+
+---
+
+在老年学顶级期刊 **Journal of Gerontology: Social Science** 及《人口研究》、《人口与发展》等SSCI和CSSCI来源刊物发表**20**余篇论文。论文总下载量**6w+**，总引用**1000+次**，H指数14，G指数21。**7次**被《新华文摘》、《高等学校文科学术文摘》、《人大复印报刊资料(人口学)》摘编或全文转载。政策建言被**全国政协**采纳。主持国家社会科学基金项目(24CRK006)和江苏省社会科学基金项目(24SHC007)。
+
+---
+
+### 电子邮箱： 
+wangbinwork@seu.edu.cn
+
+---
+
+### 研究兴趣
+
+- 社会老年学
+- 人口学
+- 数智社会学
+- 社会政策
+- 幸福社会学
+
+---
+
+### 学术主页：
+www.binwangphd.com
+
+---
+
+<br>
+
+{% capture publications_content %}
+{% include publications.md %}
+{% endcapture %}
+{% assign publications_parts = publications_content | split: '---' %}
+{{ publications_parts[2] | markdownify }}
+
+
+---
+
+<br>
+
+{% capture awards_content %}
+{% include awards.md %}
+{% endcapture %}
+{% assign awards_parts = awards_content | split: '---' %}
+{{ awards_parts[2] | markdownify }}
+
+
+---
+
+<br>
+
+{% capture blogs_content %}
+{% include blogs.md %}
+{% endcapture %}
+{% assign blogs_parts = blogs_content | split: '---' %}
+{{ blogs_parts[2] | markdownify }}
