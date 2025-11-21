@@ -4,26 +4,27 @@ layout: page
 
 ## **个人简介**
 
-**汪斌**，东南大学社会学系讲师、中国特色社会主义发展研究院研究员。入选江苏省“双创博士”人才引进奖励计划。硕士生导师；院长事务助理。北京大学博士(**PhD**，2023年)。 
+**汪斌**，东南大学社会学系讲师，东南大学中国特色社会主义发展研究院研究员。江苏省“双创博士”。硕士生导师；北京大学人口学博士 (**PhD**)。 
 
 ---
 
-在老年学顶级期刊 **Journal of Gerontology: Social Science** 及《人口研究》、《人口与发展》等SSCI和CSSCI来源刊物发表**20**余篇论文。论文总下载量**6w+**，总引用**1000+次**，H指数14，G指数21。**7次**被《新华文摘》、《高等学校文科学术文摘》、《人大复印报刊资料(人口学)》摘编或全文转载。政策建言被**全国政协**采纳。主持国家社会科学基金项目(24CRK006)和江苏省社会科学基金项目(24SHC007)。
+在**Journal of Gerontology: Social Science** (Gerontology领域TOP刊) 及《人口研究》、《人口与发展》等SSCI和CSSCI来源刊物发表**20+**篇论文。论文总下载量**7w+**，总引用**1300+次**，H指数15，G指数22。**7次**被《新华文摘》、《高等学校文科学术文摘》、《人大复印报刊资料(人口学)》摘编或全文转载。北京大学优博论文和北京市优博论文。政策建言被**全国政协**采纳1次。主持国家社会科学基金项目和江苏省社会科学基金项目。
 
 ---
 
-### 电子邮箱： 
-wangbinwork@seu.edu.cn
+### 电子邮箱
+- pomang@126.com (**长期使用，稳定邮箱**)
+- wangbinwork@seu.edu.cn
 
 ---
 
 ### 研究兴趣
+- Digital Gerontology
+- Social Gerontology 
+- Demography  
+- Healthy Aging and Social Policy 
 
-- 社会老年学
-- 人口学
-- 数智社会学
-- 社会政策
-- 幸福社会学
+
 
 ---
 
@@ -31,33 +32,3 @@ wangbinwork@seu.edu.cn
 www.binwangphd.com
 
 ---
-
-<br>
-
-{% capture publications_content %}
-{% include publications.md %}
-{% endcapture %}
-{% assign publications_parts = publications_content | split: '---' %}
-{{ publications_parts[2] | markdownify }}
-
-
----
-
-<br>
-
-{% capture awards_content %}
-{% include awards.md %}
-{% endcapture %}
-{% assign awards_parts = awards_content | split: '---' %}
-{{ awards_parts[2] | markdownify }}
-
-
----
-
-<br>
-
-{% capture blogs_content %}
-{% include blogs.md %}
-{% endcapture %}
-{% assign blogs_parts = blogs_content | split: '---' %}
-{{ blogs_parts[2] | markdownify }}
