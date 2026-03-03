@@ -468,20 +468,20 @@ body, p, h1, h2, h3, h4, h5, h6, span, div, a, li, em, blockquote {
       background-color: #0E182E !important;
   }
 
-  body.page .article-author-top,
-  body.home .article-author-top,
-  body.articles .article-author-top {
-      display: block;
-      float: none;
-      width: 100%;
-      margin: 0 0 1.2em;
+  .article-author-top {
+      display: block !important;
+      float: none !important;
+      width: 100% !important;
+      margin: 0 0 1.2em !important;
   }
 
-  body.page .article-author-top img.bio-photo,
-  body.home .article-author-top img.bio-photo,
-  body.articles .article-author-top img.bio-photo {
-      display: block;
-      margin: 0 auto 0.8em;
+  .article-author-top img.bio-photo {
+      display: block !important;
+      margin: 0 auto 0.8em !important;
+  }
+
+  body.article .article-author-top {
+      display: none !important;
   }
 
   html {
