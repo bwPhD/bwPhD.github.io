@@ -46,6 +46,52 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="/assets/css/main.css">
 
+{% if site.maintenance %}
+<meta name="robots" content="noindex, nofollow">
+<style>
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  padding: 32px;
+  box-sizing: border-box;
+  background: #f7f5f0;
+  color: #23352b;
+  text-align: center;
+  font-family: "PT Serif", Georgia, serif;
+}
+
+body > * {
+  display: none !important;
+}
+
+body::before {
+  content: "正在维护中";
+  display: block;
+  font-size: clamp(32px, 8vw, 64px);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+body::after {
+  content: "网站正在更新，稍后恢复访问。";
+  display: block;
+  max-width: 560px;
+  font-size: clamp(16px, 3vw, 22px);
+  line-height: 1.7;
+}
+</style>
+{% endif %}
+
 <!--[if (lt IE 9) & (!IEMobile)]>
 <link rel="stylesheet" href="/assets/css/ie.css">
 <![endif]-->
